@@ -1,0 +1,137 @@
+/* Základní vzhled stránek */
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    padding: 20px;
+    background-color: #6b4226;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #8a5a36;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+h2 {
+    color: #6b4226;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    text-align: left;
+}
+
+th {
+    background-color: #ead8c8;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #6b4226;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #8a5a36;
+}
+
+footer {
+    padding: 15px;
+    background-color: #6b4226;
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: #6b4226;
+}
+
+nav a {
+    color: white;
+}
